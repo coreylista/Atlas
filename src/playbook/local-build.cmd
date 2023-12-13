@@ -19,7 +19,7 @@ $defaultConfig = @{
 
 	# Choose not to modify certain aspects from playbook.conf
 	removeRequirements = $false
-	removeWinverRequirement = $true
+	removeWinverRequirement = $false
 
 	# Not recommended to disable as it will show malicious
 	removeProductCode = $true

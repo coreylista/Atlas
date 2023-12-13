@@ -13,9 +13,9 @@ actions:
     # Set boot manager descriptions
   - !run:
     exe: 'bcdedit'
-    args: '/set description "AtlasOS 10"'
+    args: '/set description "Windows 10"'
     builds: [ '!>=22000' ]
   - !run:
     exe: 'bcdedit'
-    args: '/set description "AtlasOS 11"'
+    args: '/set description "Windows 11"'
     builds: [ '>=22000' ]

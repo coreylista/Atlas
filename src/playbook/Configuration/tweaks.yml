@@ -95,7 +95,7 @@ tasks:
   - tweaks\privacy\disallow-ms-accounts.yml
   - tweaks\privacy\disallow-user-activity-upload.yml
   - tweaks\privacy\search-settings.yml
-  
+
 
   # -------------------------------------------------------------------------- #
   #  privacy\advertising                                                       #
@@ -333,11 +333,11 @@ tasks:
   # Miscellaneous tweaks which do not fit into other
   # categories.
   # -----------------------------------------------------
+  # - tweaks\misc\config-oem-information.yml
   - tweaks\statuses\status-misc.yml
   - tweaks\misc\config-time.yml
   - tweaks\misc\disable-game-mode.yml
   - tweaks\misc\delete-windows-specific-files.yml
-  - tweaks\misc\config-oem-information.yml
   - tweaks\misc\rebuild-perf-counters.yml
   - tweaks\misc\restore-default-sleep-timeout.yml
   - tweaks\misc\create-shortcuts.yml
